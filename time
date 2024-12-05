@@ -1,0 +1,10 @@
+echo to check time zone
+echo please enter the your time
+read time
+if [ $time = 0 ]
+then
+echo you av entered the correct $time
+echo congratulato `whoami`
+else
+echo reset time
+fi
